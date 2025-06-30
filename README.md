@@ -65,4 +65,5 @@ O código do robô, escrito em C/C++ para a plataforma Arduino/ATmega328P, imple
 ## Apresentação Final
 
 ![Vídeo da apresentação final do carrinho](Imagens/carrinho_apresentacao.png)
+
 *Nota: A imagem acima é um GIF animado da apresentação.*
