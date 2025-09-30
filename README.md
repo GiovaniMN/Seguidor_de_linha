@@ -10,10 +10,10 @@ Este projeto consiste em um robô seguidor de linha construído utilizando um mi
 
 A lista detalhada de componentes e esquemáticos pode ser encontrada no arquivo `Documentação Carrinho.pdf`, localizado na raiz do projeto. Os principais componentes incluem:
 
-* Microcontrolador ATmega328P (comumente encontrado em placas Arduino Uno)
-* Sensores infravermelhos (como o TCRT5000 ou similar) para detecção de linha
+* Microcontrolador ATmega328P
+* Sensores infravermelhos TCRT5000 para detecção de linha
 * Motores DC com caixa de redução
-* Ponte H (como o L298N ou similar) para controle dos motores
+* Driver L293D para controle dos motores
 * Rodas e chassi para a estrutura do robô
 * Bateria ou fonte de alimentação
 
@@ -49,18 +49,6 @@ O código do robô, escrito em C/C++ para a plataforma Arduino/ATmega328P, imple
 *   `esquerda()`: Motor esquerdo parado, motor direito com velocidade `200`.
 *   `direita()`: Motor direito parado, motor esquerdo com velocidade `200`.
 
-## Instruções de Uso
-
-1.  **Hardware**: Monte o robô conforme especificado na documentação (`Documentação Carrinho.pdf`).
-2.  **Software**:
-    *   Abra o arquivo `Codigo/codigoCarrinho.ino` na IDE do Arduino.
-    *   Selecione a placa correta (Arduino Uno ou ATmega328P).
-    *   Selecione a porta serial correta.
-    *   Compile e carregue o código para o microcontrolador.
-3.  **Execução**:
-    *   Coloque o robô sobre uma pista com uma linha preta em fundo branco.
-    *   Ligue a alimentação do robô.
-    *   O robô deverá começar a seguir a linha.
 
 ## Apresentação Final
 
